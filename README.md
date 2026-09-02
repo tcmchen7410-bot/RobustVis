@@ -26,8 +26,9 @@ rob_bar(data_step1, step = 1)
 
 ```R
 rob_bar(data_step1, step = 2)
-# 图片
 ```
+<img src="bar1.png" alt="bar2" width="100%" />
+
 
 2. `rob_traffic_light`
 Draw a robvis-style traffic-light grid for step 1 or step 2 assessments. The first column of 'data' contains study labels; the remaining columns map by position to Item 1–5 (`step = 1`) or Item 1–6 (`step = 2`).
