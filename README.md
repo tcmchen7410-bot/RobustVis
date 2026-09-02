@@ -17,7 +17,7 @@ rob_bar
 A function to convert risk-of-bias assessment data for Step 1 or Step 2 into tidy data and plot a summary stacked barplot matching the standard Cochrane style with a boxed legend and custom labels.
 
 ## Quick Start
-
+## Installation
 ```R
 library(RobustVis)
 
