@@ -10,6 +10,7 @@
 #'   \item{Item_3}{Blinding of participants and personnel assessment.}
 #'   \item{Item_4}{Blinding of outcome assessment.}
 #'   \item{Item_5}{Additional bias domain assessment.}
+#'   \item{Item_6}{Outcome data not included in analysis.}
 #' }
 #'
 #' @details
