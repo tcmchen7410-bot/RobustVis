@@ -21,7 +21,8 @@ A function to convert risk-of-bias assessment data for Step 1 or Step 2 into tid
 ```R
 library(RobustVis)
 rob_bar(data_step1, step = 1)
-# 图片
+<img width="1506" height="478" alt="f8daba52-5342-4b75-bbb2-db477954bb43" src="https://github.com/user-attachments/assets/1ccd476d-cb42-423b-865b-c3603216fa88" />
+
 rob_bar(data_step1, step = 2)
 # 图片
 ```
