@@ -35,30 +35,30 @@ rob_bar(data_step1, step = 2)
 Draw a robvis-style traffic-light grid for step 1 or step 2 assessments. The first column of 'data' contains study labels; the remaining columns map by position to Item 1–5 (`step = 1`) or Item 1–6 (`step = 2`).
 
 ```R
+library(RobustVis)
 rob_traffic_light(data = data_step1, step = 1)
 ```
 <img src="traffic_light1.png" alt="traffic_light1" width="100%" />
 
 ```R
+library(RobustVis)
 rob_traffic_light(data = data_step2, step = 2)
 ```
 <img src="traffic_light2.png" alt="traffic_light2" width="100%" />
 
+For more detailed information about the function, please refer to the `help page`.
 
-## Features
 
-* **Custom Summary Plots**: Quickly produce standardized risk-of-bias barplots tailored for ROBUST-RCT assessments.
-* **Seamless Integration**: Built to work smoothly with standard data manipulation and visualization workflows in R using `dplyr` and `ggplot2`.
 
 ## Author Information
 
 * **Guang Chen** (Author, Creator) — `tcm_chen7410@163.com`
-* **Fanrong Liang** (Author) — `acuresearch@126.com`
+
 
 ## License
 
 This project is open source and available under the MIT License.
 
-## 致谢
+## Acknowledgments
 
-我们参考了 robvis package 对 RobustVis package 进行了制作
+We referenced the `robvis` package in the development of the `RobustVis` package.
