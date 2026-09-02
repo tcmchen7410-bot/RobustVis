@@ -36,10 +36,12 @@ Draw a robvis-style traffic-light grid for step 1 or step 2 assessments. The fir
 
 ```R
 rob_traffic_light(data = data_step1, step = 1)
-# 图片
-rob_traffic_light(data = data_step2, step = 2)
-# 图片
 ```
+<img src="traffic_light1.png" alt="traffic_light1" width="100%" />
+```R
+rob_traffic_light(data = data_step2, step = 2)
+```
+<img src="traffic_light2.png" alt="traffic_light2" width="100%" />
 
 ```R
 library(RobustVis)
