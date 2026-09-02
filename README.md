@@ -1,21 +1,20 @@
 # RobustVis
 
-`RobustVis` is an R package designed to streamline the visualization of risk-of-bias assessments, inspired by the workflow of tools like `robvis`.
-
-## Overview
-
-When conducting systematic reviews or methodological research involving ROBUST-RCT risk-of-bias evaluations, effectively communicating quality assessment results is crucial. `RobustVis` provides dedicated functions to generate publication-ready, Cochrane-style summary barplots.
+Robust-RCT is the latest tool for evaluating the risk of bias in randomized controlled trials, published in *BMJ*. The `RobustVis` package can visualize Robust-RCT assessments in a Cochrane style.
 
 ## Installation
 
 You can install the development version of `RobustVis` directly from GitHub using `devtools`:
 
 ```R
-if (!requireNamespace("devtools", quietly = TRUE))
-    install.packages("devtools")
-
+install.packages("devtools")
 devtools::install_github("tcmchen7410-bot/RobustVis")
-```
+
+## Create plots
+The package contains two plotting functions:
+
+rob_bar
+A function to convert risk-of-bias assessment data for Step 1 or Step 2 into tidy data and plot a summary stacked barplot matching the standard Cochrane style with a boxed legend and custom labels.
 
 ## Quick Start
 
