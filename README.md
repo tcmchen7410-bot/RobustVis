@@ -25,6 +25,7 @@ rob_bar(data_step1, step = 1)
 <img src="bar1.png" alt="bar1" width="100%" />
 
 ```R
+library(RobustVis)
 rob_bar(data_step1, step = 2)
 ```
 <img src="bar1.png" alt="bar2" width="100%" />
