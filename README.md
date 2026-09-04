@@ -53,7 +53,7 @@ For more detailed information about the function, please refer to the `help page
 
 ## Author Information
 
-* **Guang Chen** (Author, Creator) — `tcm_chen7410@163.com`
+* **Guang Chen** (Author, Creator) — tcm_chen7410@163.com
 
 
 ## License
