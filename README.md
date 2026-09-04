@@ -1,6 +1,6 @@
 # RobustVis
 
-Robust-RCT is the latest tool for evaluating the risk of bias in randomized controlled trials, published in *BMJ*. The `RobustVis` package can visualize Robust-RCT assessments in a Cochrane style.
+ROBUST-RCT is the latest tool for evaluating the risk of bias in randomized controlled trials, published in *BMJ*. The `RobustVis` package can visualize Robust-RCT assessments in a Cochrane style.
 
 ## Installation
 
@@ -9,6 +9,7 @@ You can install the development version of `RobustVis` directly from GitHub usin
 ```R
 install.packages("devtools")
 devtools::install_github("tcmchen7410-bot/RobustVis")
+library(RobustVis)
 ```
 
 ## Create plots 
@@ -19,13 +20,13 @@ The package contains two plotting functions:
 A function to convert risk-of-bias assessment data for Step 1 or Step 2 into tidy data and plot a summary stacked barplot matching the standard Cochrane style with a boxed legend and custom labels.
 
 ```R
-library(RobustVis)
+#For step 1
 rob_bar(data_step1, step = 1)
 ```
 <img src="bar1.png" alt="bar1" width="100%" />
 
 ```R
-library(RobustVis)
+#For step 2
 rob_bar(data_step1, step = 2)
 ```
 <img src="bar2.png" alt="bar2" width="100%" />
@@ -35,13 +36,13 @@ rob_bar(data_step1, step = 2)
 Draw a robvis-style traffic-light grid for step 1 or step 2 assessments. The first column of 'data' contains study labels; the remaining columns map by position to Item 1–5 (`step = 1`) or Item 1–6 (`step = 2`).
 
 ```R
-library(RobustVis)
+#For step 1
 rob_traffic_light(data = data_step1, step = 1)
 ```
 <img src="traffic_light1.png" alt="traffic_light1" width="100%" />
 
 ```R
-library(RobustVis)
+#For step 2
 rob_traffic_light(data = data_step2, step = 2)
 ```
 <img src="traffic_light2.png" alt="traffic_light2" width="100%" />
