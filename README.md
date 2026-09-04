@@ -1,6 +1,6 @@
 # RobustVis
 
-ROBUST-RCT is the latest tool for evaluating the risk of bias in randomized controlled trials, published in *BMJ*. The `RobustVis` package can visualize Robust-RCT assessments in a Cochrane style.
+ROBUST-RCT is the latest tool for evaluating the risk of bias in randomized controlled trials, published in *BMJ*. The `RobustVis` package can visualize ROBUST-RCT assessments in a Cochrane style.
 
 ## Installation
 
