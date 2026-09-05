@@ -12,6 +12,8 @@ devtools::install_github("tcmchen7410-bot/RobustVis")
 library(RobustVis)
 ```
 
+## Web online
+https://xiaobanxia.shinyapps.io/robustvis/
 ## Create plots 
 
 The package contains two plotting functions:
